@@ -10,5 +10,9 @@ hoennApp.config(function ($routeProvider) {
 			{
 				templateUrl:'partials/Route101.html'
 			})
+		.when ('/oldale',
+		{
+			templateUrl:'partials/Oldale.html'
+		})
 		.otherwise({redirectTo: '/littleroot' });
 });
