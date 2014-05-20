@@ -1,8 +1,17 @@
-<html>
-
-<head>
-</head>
-<body>
-Hello world!
-</body>
+<!DOCTYPE html>
+<html data-ng-app="hoennApp">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Pokemon Nostalgia Project</title>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1>Hoenn</h1>	
+		<div>
+			<div data-ng-view=""></div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
 </html>
